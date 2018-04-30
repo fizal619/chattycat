@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+  <audio src="http://www.wavlist.com/soundfx/002/cat-mad2.wav"></audio>
+  <div class="container">
+    <div class="title">
+      <h1>ChattyCat 😺</h1>
+    </div>
+    <div class="messagebox">
+      
+    </div>
+    <form >
+        <input name="message" type="text">
+      </form>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyC379rDwKfMOIiQx23A6gcCQ5AE1Q5MffE",
+      authDomain: "chattycat-6d285.firebaseapp.com",
+      databaseURL: "https://chattycat-6d285.firebaseio.com",
+      projectId: "chattycat-6d285",
+      storageBucket: "chattycat-6d285.appspot.com",
+      messagingSenderId: "596400945044"
+    };
+    firebase.initializeApp(config);
+  </script>
+
+  <script src="main.js"></script>
+</body>
+</html>
