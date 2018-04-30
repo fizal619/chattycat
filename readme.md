@@ -1,0 +1,1 @@
+Full version available at: [fizal.me/chattycat](http://fizal.me/chattycat/)
